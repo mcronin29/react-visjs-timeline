@@ -2,11 +2,11 @@
   "name": "@mcronin29/react-visjs-timeline",
   "version": "1.6.1",
   "description": "React component for the vis.js timeline module",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
     "format": "prettier --write ./{src,examples}/**/*.js",
     "release": "babel src --ignore *.test.js --out-dir build",
-    "precommit": "lint-staged",
+    
     "prepublish": "npm run release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
