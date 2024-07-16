@@ -2,7 +2,7 @@
   "name": "@mcronin29/react-visjs-timeline",
   "version": "1.6.0",
   "description": "React component for the vis.js timeline module",
-  "main": "build/index.js",
+  "main": "src/index.js",
   "scripts": {
     "format": "prettier --write ./{src,examples}/**/*.js",
     "release": "node_modules/.bin/babel src --ignore *.test.js --out-dir build",
